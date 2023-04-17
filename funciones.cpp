@@ -8,9 +8,7 @@ void area();
 
 int main(int argc, char const *argv[])
 {
-    int num;
-    cout<<"poner el angulo ";
-    cin>>num;
+    
     return 0;
 }
 
@@ -27,5 +25,18 @@ void angulos(int num){
     }if (int i=180)
     {
         cout<<"el angulo es extendido " <<endl;
+    }
+}
+
+void triangulos(){
+    if (int a = 3)
+    {
+        cout<<"es un triangulo equilatero " <<endl;
+    }if (int a = 2)
+    {
+        cout<<"el triangulo  es Isosceles " <<endl;
+    }if (int a = 0)
+    {
+        cout<<"el triangulo es Escaleno " <<endl;
     }
 }
